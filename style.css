@@ -1,0 +1,54 @@
+body{
+    --mainblue:#3b6ef5
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    
+}
+header{
+    background-color: azure;
+    width: 100%;
+    padding: 15px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+section{
+padding:40px;
+}
+
+
+
+.projects{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.project-card{
+background: rgba(255,255,255,0.1);
+padding:20px;
+border-radius:10px;
+width:200px;
+transition:0.3s;
+}
+
+
+
+.project-card:hover{
+transform:scale(1.1);
+background: linear-gradient(45deg,#ff9966,#ff5e62);
+}
+
+footer{
+padding:20px;
+margin-top:30px;
+background:rgba(0,0,0,0.3);
+}
